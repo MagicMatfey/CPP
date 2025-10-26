@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Введение", "Вве�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Операции_деления", "Операции_деления\Операции_деления.vcxproj", "{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Условные конструкции", "Условные конструкции", "{31734DCE-9BAE-4EDC-A870-0FED74ECD71B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Условные_конструкции", "Условные_конструкции\Условные_конструкции.vcxproj", "{84A41E9F-3499-40F0-9A33-5497A89CCD3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Условный_оператор_if", "Условный_оператор_if\Условный_оператор_if.vcxproj", "{DEB36366-65E3-4A33-9371-E42260617A26}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Секунды", "Секунды\Секунды.vcxproj", "{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}"
 EndProject
 Global
@@ -37,6 +43,22 @@ Global
 		{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}.Release|Win32.Build.0 = Release|Win32
 		{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}.Release|x64.ActiveCfg = Release|x64
 		{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}.Release|x64.Build.0 = Release|x64
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D}.Debug|Win32.Build.0 = Debug|Win32
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D}.Debug|x64.ActiveCfg = Debug|x64
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D}.Debug|x64.Build.0 = Debug|x64
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D}.Release|Win32.ActiveCfg = Release|Win32
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D}.Release|Win32.Build.0 = Release|Win32
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D}.Release|x64.ActiveCfg = Release|x64
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D}.Release|x64.Build.0 = Release|x64
+		{DEB36366-65E3-4A33-9371-E42260617A26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DEB36366-65E3-4A33-9371-E42260617A26}.Debug|Win32.Build.0 = Debug|Win32
+		{DEB36366-65E3-4A33-9371-E42260617A26}.Debug|x64.ActiveCfg = Debug|x64
+		{DEB36366-65E3-4A33-9371-E42260617A26}.Debug|x64.Build.0 = Debug|x64
+		{DEB36366-65E3-4A33-9371-E42260617A26}.Release|Win32.ActiveCfg = Release|Win32
+		{DEB36366-65E3-4A33-9371-E42260617A26}.Release|Win32.Build.0 = Release|Win32
+		{DEB36366-65E3-4A33-9371-E42260617A26}.Release|x64.ActiveCfg = Release|x64
+		{DEB36366-65E3-4A33-9371-E42260617A26}.Release|x64.Build.0 = Release|x64
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Debug|Win32.ActiveCfg = Debug|Win32
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Debug|Win32.Build.0 = Debug|Win32
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Debug|x64.ActiveCfg = Debug|x64
@@ -52,6 +74,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{16EB09BF-F107-4BDC-9C13-9521690475AF} = {7B4E5364-58AE-4686-A3AA-0B6844189F5F}
 		{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8} = {F7CC30BB-67D0-4AE1-A543-3AFA5FF1E374}
+		{84A41E9F-3499-40F0-9A33-5497A89CCD3D} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
+		{DEB36366-65E3-4A33-9371-E42260617A26} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B} = {F7CC30BB-67D0-4AE1-A543-3AFA5FF1E374}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
