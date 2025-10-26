@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ввод_Вывод", "Ввод_Вывод\Ввод_Вывод.vcxproj", "{16EB09BF-F107-4BDC-9C13-9521690475AF}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Условный_оператор_if", "Условный_оператор_if\Условный_оператор_if.vcxproj", "{DEB36366-65E3-4A33-9371-E42260617A26}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Секунды", "Секунды\Секунды.vcxproj", "{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Координатная_плоскость", "Координатная_плоскость\Координатная_плоскость.vcxproj", "{D050EC76-EA34-4886-BAF7-270626E1D5E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,14 @@ Global
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|Win32.Build.0 = Release|Win32
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|x64.ActiveCfg = Release|x64
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|x64.Build.0 = Release|x64
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Debug|Win32.Build.0 = Debug|Win32
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Debug|x64.ActiveCfg = Debug|x64
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Debug|x64.Build.0 = Debug|x64
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Release|Win32.ActiveCfg = Release|Win32
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Release|Win32.Build.0 = Release|Win32
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Release|x64.ActiveCfg = Release|x64
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +87,7 @@ Global
 		{84A41E9F-3499-40F0-9A33-5497A89CCD3D} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
 		{DEB36366-65E3-4A33-9371-E42260617A26} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B} = {F7CC30BB-67D0-4AE1-A543-3AFA5FF1E374}
+		{D050EC76-EA34-4886-BAF7-270626E1D5E0} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C8CDAC6-CA66-4D46-8E29-90C1701B0A1D}
