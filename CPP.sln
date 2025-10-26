@@ -6,12 +6,19 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ввод_Вывод", "Ввод_Вывод\Ввод_Вывод.vcxproj", "{16EB09BF-F107-4BDC-9C13-9521690475AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Операции деления", "Операции деления", "{F7CC30BB-67D0-4AE1-A543-3AFA5FF1E374}"
+	ProjectSection(SolutionItems) = preProject
+		Секунды.md = Секунды.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Введение", "Введение", "{7B4E5364-58AE-4686-A3AA-0B6844189F5F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Операции_деления", "Операции_деления\Операции_деления.vcxproj", "{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Условные конструкции", "Условные конструкции", "{31734DCE-9BAE-4EDC-A870-0FED74ECD71B}"
+	ProjectSection(SolutionItems) = preProject
+		Задача 12 Грибы.md = Задача 12 Грибы.md
+		Задача 6 Тип треугольника.md = Задача 6 Тип треугольника.md
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Условные_конструкции", "Условные_конструкции\Условные_конструкции.vcxproj", "{84A41E9F-3499-40F0-9A33-5497A89CCD3D}"
 EndProject
