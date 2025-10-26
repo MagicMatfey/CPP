@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ввод_Вывод", "Ввод_Вывод\Ввод_Вывод.vcxproj", "{16EB09BF-F107-4BDC-9C13-9521690475AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Операции деления", "Операции деления", "{F7CC30BB-67D0-4AE1-A543-3AFA5FF1E374}"
@@ -7,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Введение", "Введение", "{7B4E5364-58AE-4686-A3AA-0B6844189F5F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Операции_деления", "Операции_деления\Операции_деления.vcxproj", "{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Секунды", "Секунды\Секунды.vcxproj", "{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,9 +37,24 @@ Global
 		{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}.Release|Win32.Build.0 = Release|Win32
 		{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}.Release|x64.ActiveCfg = Release|x64
 		{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8}.Release|x64.Build.0 = Release|x64
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Debug|Win32.Build.0 = Debug|Win32
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Debug|x64.ActiveCfg = Debug|x64
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Debug|x64.Build.0 = Debug|x64
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|Win32.ActiveCfg = Release|Win32
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|Win32.Build.0 = Release|Win32
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|x64.ActiveCfg = Release|x64
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{16EB09BF-F107-4BDC-9C13-9521690475AF} = {7B4E5364-58AE-4686-A3AA-0B6844189F5F}
 		{3A232F06-A0E5-4D4E-BA35-E5C1EE2131F8} = {F7CC30BB-67D0-4AE1-A543-3AFA5FF1E374}
+		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B} = {F7CC30BB-67D0-4AE1-A543-3AFA5FF1E374}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C8CDAC6-CA66-4D46-8E29-90C1701B0A1D}
 	EndGlobalSection
 EndGlobal
