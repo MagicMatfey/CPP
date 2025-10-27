@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10
+VisualStudioVersion = 17.14.36616.10 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ввод_Вывод", "Ввод_Вывод\Ввод_Вывод.vcxproj", "{16EB09BF-F107-4BDC-9C13-9521690475AF}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Условный_оператор_if", "Условный_оператор_if\Условный_оператор_if.vcxproj", "{DEB36366-65E3-4A33-9371-E42260617A26}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Секунды", "Секунды\Секунды.vcxproj", "{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Тернарный_оператор", "Тернарный_оператор\Тернарный_оператор.vcxproj", "{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Отператор_выбора_switch", "Отператор_выбора_switch\Отператор_выбора_switch.vcxproj", "{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Координатная_плоскость", "Координатная_плоскость\Координатная_плоскость.vcxproj", "{D050EC76-EA34-4886-BAF7-270626E1D5E0}"
 EndProject
@@ -75,6 +79,22 @@ Global
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|Win32.Build.0 = Release|Win32
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|x64.ActiveCfg = Release|x64
 		{B1CE7EFA-BF10-49EC-B1DF-1E86690B7A1B}.Release|x64.Build.0 = Release|x64
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}.Debug|Win32.Build.0 = Debug|Win32
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}.Debug|x64.ActiveCfg = Debug|x64
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}.Debug|x64.Build.0 = Debug|x64
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}.Release|Win32.ActiveCfg = Release|Win32
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}.Release|Win32.Build.0 = Release|Win32
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}.Release|x64.ActiveCfg = Release|x64
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1}.Release|x64.Build.0 = Release|x64
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}.Debug|Win32.Build.0 = Debug|Win32
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}.Debug|x64.ActiveCfg = Debug|x64
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}.Debug|x64.Build.0 = Debug|x64
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}.Release|Win32.ActiveCfg = Release|Win32
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}.Release|Win32.Build.0 = Release|Win32
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}.Release|x64.ActiveCfg = Release|x64
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B}.Release|x64.Build.0 = Release|x64
 		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Debug|Win32.ActiveCfg = Debug|Win32
 		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Debug|Win32.Build.0 = Debug|Win32
 		{D050EC76-EA34-4886-BAF7-270626E1D5E0}.Debug|x64.ActiveCfg = Debug|x64
@@ -121,6 +141,8 @@ Global
 		{F93CDDD7-C305-4288-B479-2745A2539D01} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
 		{BE432A22-995F-4980-8712-768843E54714} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
 		{89D468B2-F2EE-4A4C-ACE1-7256463276FD} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
+		{47ECAE1D-61FD-46BC-83BE-70B8BDFF71E1} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
+		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C8CDAC6-CA66-4D46-8E29-90C1701B0A1D}
