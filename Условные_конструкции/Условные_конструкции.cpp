@@ -17,6 +17,7 @@
 using namespace std;
 
 int main() {
+    setlocale(LC_ALL, "RU");
 
     cout << "Задача Треугольник" << endl;
 
@@ -59,16 +60,16 @@ int main() {
 
     cout << "Задача Грибы" << endl;
 
-    int n;
-    cin >> n;
+    int no;
+    cin >> no;
 
-    int last_two = n % 100;
+    int last_two = no % 100;
 
     if (last_two >= 11 && last_two <= 19) {
         cout << "грибов" << endl;
     }
     else {
-        int last_digit = n % 10;
+        int last_digit = no % 10;
 
         if (last_digit == 1) {
             cout << "гриб" << endl;
@@ -83,12 +84,14 @@ int main() {
 
     cout << "Задача про котлеты" << endl;
 
-    int n;
+    int nу;
     int m;
     int k;
 
     cout << "Введите элементы в порядке n m k" << endl;
-    cin >> n, m, k;
-    cout << n/k*m*2 << endl;
+    cin >> nу;
+    cin >> m;
+    cin >> k;
+    cout << nу/k*m*2 << endl;
     return 0;
 }
