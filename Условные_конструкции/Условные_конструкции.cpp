@@ -17,6 +17,9 @@
 using namespace std;
 
 int main() {
+
+    cout << "Задача Треугольник" << endl;
+
     int a, b, c;
     cin >> a >> b >> c;
 
