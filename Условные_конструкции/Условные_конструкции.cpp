@@ -54,7 +54,7 @@ int main() {
     else {
         cout << "Тупоугольный" << endl;
     }
-
+    
 
 
     cout << "Задача Грибы" << endl;
@@ -72,13 +72,23 @@ int main() {
 
         if (last_digit == 1) {
             cout << "гриб" << endl;
-    }
+        }
         else if (last_digit >= 2 && last_digit <= 4) {
             cout << "гриба" << endl;
-    }
-    else {
+        }
+        else {
             cout << "грибов" << endl;
         }
     }
+
+    cout << "Задача про котлеты" << endl;
+
+    int n;
+    int m;
+    int k;
+
+    cout << "Введите элементы в порядке n m k" << endl;
+    cin >> n, m, k;
+    cout << n/k*m*2 << endl;
     return 0;
 }
