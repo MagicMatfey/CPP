@@ -1,0 +1,167 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	bool lastOrSecond = true;
+	int tripleNumber;
+	setlocale(LC_ALL, "RU");
+	cin >> tripleNumber;
+	int firstNumber = tripleNumber / 100;
+	int secondNumber = (tripleNumber - (firstNumber * 100)) / 10;
+	int lastSecondsNumber = (tripleNumber - (firstNumber * 100)) % 100;
+	int trithnumber = ((tripleNumber - (firstNumber * 100)) - (secondNumber * 10)) / 1;
+	switch (firstNumber) 
+	{
+		case 1:
+			cout << "сто";
+			break;
+		case 2:
+			cout << "две-сти";
+			break;
+		case 3:
+			cout << "три-сто";
+			break;
+		case 4:
+			cout << "четыре-ста";
+			break;
+		case 5:
+			cout << "пять-сот";
+			break;
+		case 6:
+			cout << "шесть-сот";
+			break;
+		case 7:
+			cout << "семь-сот";
+			break;
+		case 8:
+			cout << "восемь-сот";
+			break;
+		case 9:
+			cout << "девять-сот";
+			break;
+	}
+	cout << " ";
+	switch (lastSecondsNumber)
+	{
+	case 10:
+		cout << "десять";
+		break;
+	case 11:
+		cout << "одинадцать";
+		break;
+	case 12:
+		cout << "двенадцать";
+		break;
+	case 13:
+		cout << "тринадцать";
+		break;
+	case 14:
+		cout << "четырнадцать";
+		break;
+	case 15:
+		cout << "пятнадцать";
+		break;
+	case 16:
+		cout << "шестнадцать";
+		break;
+	case 17:
+		cout << "семнадцать";
+		break;
+	case 18:
+		cout << "восемнадцать";
+		break;
+	case 19:
+		cout << "девятнадцать";
+		break;
+	case 20:
+		cout << "двадцать";
+		break;
+	case 30:
+		cout << "тридцать";
+		break;
+	case 40:
+		cout << "сорок";
+		break;
+	case 50:
+		cout << "пятьдесят";
+		break;
+	case 60:
+		cout << "шестьдесят";
+		break;
+	case 70:
+		cout << "семьдесят";
+		break;
+	case 80:
+		cout << "восемьдесят";
+		break;
+	case 90:
+		cout << "девяносто";
+		break;
+	default:
+		lastOrSecond = false;
+		break;
+	}
+	if (!lastOrSecond)
+	{
+		switch (secondNumber)
+		{
+		case 2:
+			cout << "девяносто";
+			break;
+		case 3:
+			cout << "тридцать";
+			break;
+		case 4:
+			cout << "сорок";
+			break;
+		case 5:
+			cout << "пятьдесят";
+			break;
+		case 6:
+			cout << "шестьдесят";
+			break;
+		case 7:
+			cout << "семьдесят";
+			break;
+		case 8:
+			cout << "восемьдесят";
+			break;
+		case 9:
+			cout << "девяносто";
+			break;
+		}
+		cout << " ";
+		switch (trithnumber)
+		{
+		case 1:
+			cout << "один";
+			break;
+		case 2:
+			cout << "два";
+			break;
+		case 3:
+			cout << "три";
+			break;
+		case 4:
+			cout << "четыре";
+			break;
+		case 5:
+			cout << "пять";
+			break;
+		case 6:
+			cout << "шесть";
+			break;
+		case 7:
+			cout << "семь";
+			break;
+		case 8:
+			cout << "восемь";
+			break;
+		case 9:
+			cout << "девять";
+			break;
+		}
+		cout << " ";
+	}
+	return 0;
+}
