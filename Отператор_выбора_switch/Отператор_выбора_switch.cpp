@@ -7,6 +7,9 @@ int main(int argc, char* argv[])
             case значение_1:
                 код
                 break;
+            case значение_2:
+                код
+                break;
             default:
                 код
                 break;
