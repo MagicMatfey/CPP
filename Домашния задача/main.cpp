@@ -6,8 +6,8 @@ int main()
 	setlocale(LC_ALL, "RU");
 	cin >> tripleNumber;
 	int firstNumber = tripleNumber / 100;
-	int secondNumber = (tripleNumber - (firstNumber * 100)) / 10;
-	int trithnumber = ((tripleNumber - (firstNumber * 100)) - (secondNumber * 10)) / 1;
+	int secondNumber = (tripleNumber % 100)/10;
+	int trithnumber = tripleNumber % 10;
 	cout << firstNumber + secondNumber + trithnumber << "\n";
 	return 0;
 }

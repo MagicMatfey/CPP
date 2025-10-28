@@ -24,7 +24,7 @@
     <ProjectGuid>{37fe4891-6cd2-4f1d-9c59-bb4c110dd197}</ProjectGuid>
     <RootNamespace>Домашниязадача</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Домашния_задача</ProjectName>
+    <ProjectName>Сумма_цифр_числа</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
