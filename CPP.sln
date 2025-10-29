@@ -38,9 +38,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Цикл_for", "Цикл_fo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Цикл_while", "Цикл_while\Цикл_while.vcxproj", "{26769721-E7AE-4436-AF08-1B9913BE20F8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Домашния_задача", "Домашния задача\Домашния задача.vcxproj", "{37FE4891-6CD2-4F1D-9C59-BB4C110DD197}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Число_прописью", "Число_прописью\Число_прописью.vcxproj", "{591082AC-71EC-41F2-AECB-89B99BE9E73E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Дом_задач", "Дом_задач\Дом_задач.vcxproj", "{591082AC-71EC-41F2-AECB-89B99BE9E73E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Сумма_цифр_числа", "Сумма_цифр_числа\Сумма_цифр_числа.vcxproj", "{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -130,6 +130,14 @@ Global
 		{26769721-E7AE-4436-AF08-1B9913BE20F8}.Release|Win32.Build.0 = Release|Win32
 		{26769721-E7AE-4436-AF08-1B9913BE20F8}.Release|x64.ActiveCfg = Release|x64
 		{26769721-E7AE-4436-AF08-1B9913BE20F8}.Release|x64.Build.0 = Release|x64
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}.Debug|Win32.Build.0 = Debug|Win32
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}.Debug|x64.ActiveCfg = Debug|x64
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}.Debug|x64.Build.0 = Debug|x64
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}.Release|Win32.ActiveCfg = Release|Win32
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}.Release|Win32.Build.0 = Release|Win32
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}.Release|x64.ActiveCfg = Release|x64
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +153,8 @@ Global
 		{639F4D4E-31C8-4740-84D7-9DA9FFD5DF6B} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
 		{433627C2-6B11-4E72-946C-4E9A39BA6662} = {E871779D-D25C-4819-856E-03066907F4D8}
 		{26769721-E7AE-4436-AF08-1B9913BE20F8} = {E871779D-D25C-4819-856E-03066907F4D8}
+		{591082AC-71EC-41F2-AECB-89B99BE9E73E} = {31734DCE-9BAE-4EDC-A870-0FED74ECD71B}
+		{FAE76C55-0916-4AA1-B0A2-38E605D7C3BE} = {F7CC30BB-67D0-4AE1-A543-3AFA5FF1E374}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C8CDAC6-CA66-4D46-8E29-90C1701B0A1D}
