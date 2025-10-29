@@ -16,28 +16,28 @@ int main()
 			cout << "сто";
 			break;
 		case 2:
-			cout << "двести";
+			cout << "две-сти";
 			break;
 		case 3:
-			cout << "триста";
+			cout << "три-сто";
 			break;
 		case 4:
-			cout << "четыреста";
+			cout << "четыре-ста";
 			break;
 		case 5:
-			cout << "пятьсот";
+			cout << "пять-сот";
 			break;
 		case 6:
-			cout << "шестьсот";
+			cout << "шесть-сот";
 			break;
 		case 7:
-			cout << "семьсот";
+			cout << "семь-сот";
 			break;
 		case 8:
-			cout << "восемьсот";
+			cout << "восемь-сот";
 			break;
 		case 9:
-			cout << "девятьсот";
+			cout << "девять-сот";
 			break;
 	}
 	cout << " ";
@@ -106,7 +106,7 @@ int main()
 		switch (secondNumber)
 		{
 		case 2:
-			cout << "двадцать";
+			cout << "девяносто";
 			break;
 		case 3:
 			cout << "тридцать";
