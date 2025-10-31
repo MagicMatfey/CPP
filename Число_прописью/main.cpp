@@ -47,7 +47,7 @@ int main()
 		cout << "десять";
 		break;
 	case 11:
-		cout << "одинадцать";
+		cout << "одиннадцать";
 		break;
 	case 12:
 		cout << "двенадцать";
