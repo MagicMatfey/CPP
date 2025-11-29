@@ -69,6 +69,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Массивы", "Масс�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Одномерные_статические_массивы", "Одномерные_статические_массивы\Одномерные_статические_массивы.vcxproj", "{70FE5392-2C89-4D82-B65A-85BA94B26075}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Школьные задачи", "Школьные задачи", "{FBD3AEC0-871A-473E-9264-F470209D6E2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Рекурсия", "Рекурсия\Рекурсия.vcxproj", "{DAC1C173-EF87-44C2-9355-F9DEA20C174D}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Простые_числа", "Простые_числа\Простые_числа.vcxproj", "{E1BADF9E-B094-4594-8ADF-C9CFB9930D94}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Сумма_цифр_числа+", "Сумма_цифр_числа+\Сумма_цифр_числа+.vcxproj", "{459D8017-A18E-42AD-BCAA-ED30ADC398D2}"
@@ -305,6 +309,14 @@ Global
 		{70FE5392-2C89-4D82-B65A-85BA94B26075}.Release|Win32.Build.0 = Release|Win32
 		{70FE5392-2C89-4D82-B65A-85BA94B26075}.Release|x64.ActiveCfg = Release|x64
 		{70FE5392-2C89-4D82-B65A-85BA94B26075}.Release|x64.Build.0 = Release|x64
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D}.Debug|Win32.Build.0 = Debug|Win32
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D}.Debug|x64.ActiveCfg = Debug|x64
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D}.Debug|x64.Build.0 = Debug|x64
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D}.Release|Win32.ActiveCfg = Release|Win32
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D}.Release|Win32.Build.0 = Release|Win32
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D}.Release|x64.ActiveCfg = Release|x64
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D}.Release|x64.Build.0 = Release|x64
 		{E1BADF9E-B094-4594-8ADF-C9CFB9930D94}.Debug|Win32.ActiveCfg = Debug|Win32
 		{E1BADF9E-B094-4594-8ADF-C9CFB9930D94}.Debug|Win32.Build.0 = Debug|Win32
 		{E1BADF9E-B094-4594-8ADF-C9CFB9930D94}.Debug|x64.ActiveCfg = Debug|x64
@@ -417,6 +429,7 @@ Global
 		{06D5BCD5-7AB4-48E6-84C3-7ADCD52B6985} = {E871779D-D25C-4819-856E-03066907F4D8}
 		{C1463508-B1A1-4103-A40A-ADCE1AF1D1E1} = {E871779D-D25C-4819-856E-03066907F4D8}
 		{70FE5392-2C89-4D82-B65A-85BA94B26075} = {F5DCCE65-784B-4E6F-A9F7-008DDF4F814C}
+		{DAC1C173-EF87-44C2-9355-F9DEA20C174D} = {FBD3AEC0-871A-473E-9264-F470209D6E2C}
 		{E1BADF9E-B094-4594-8ADF-C9CFB9930D94} = {E871779D-D25C-4819-856E-03066907F4D8}
 		{459D8017-A18E-42AD-BCAA-ED30ADC398D2} = {E871779D-D25C-4819-856E-03066907F4D8}
 		{681E170F-BD25-41B5-AB92-3EB255CBB2F3} = {F5DCCE65-784B-4E6F-A9F7-008DDF4F814C}
